@@ -20,6 +20,10 @@ void draw() {
       image(qr[i+10*l], c(1.5+i*d), c(1.5 + verticalSpace*l), c(1.5), c(1.5));
       fill(0);
       text(i+10*l, c(1.5+i*d), c(1.5+textOffset+ verticalSpace*l));
+      fill(170, 121, 76);
+      noStroke();
+      if(i+10*l==4||i+10*l==5||i+10*l==7||i+10*l==11||i+10*l==71) //Brown Numbers
+      ellipse(c(1.5+i*d)+c(0.3), c(1.5+textOffset+ verticalSpace*l), c(0.1), c(0.1));
     }
   }
   exit();
