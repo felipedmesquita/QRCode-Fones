@@ -4,7 +4,7 @@ int colunas = 10;
 
 PImage[] qr = new PImage[131];
 void setup() {
-  size(595, 842, PDF, "Line.pdf");
+  size(595, 842, PDF, "Fones.pdf");
   textMode(SHAPE);
   textAlign(CENTER, CENTER);
   imageMode(CENTER);
