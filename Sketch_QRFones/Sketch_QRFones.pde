@@ -14,7 +14,7 @@ void setup() {
 
 void draw() {
   background(255);
-  float d = 20/colunas, textOffset = 0.9, verticalSpace = 2.2;
+  float d = 20/colunas, textOffset = 0.85, verticalSpace = 2.2;
   for (int i=0; i<colunas; i++) {
     for (int l=0; l<13; l++) {
       image(qr[i+10*l], c(1.5+i*d), c(1.5 + verticalSpace*l), c(1.5), c(1.5));
